@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python. Часть 1</title>
+</head>
+<body>
+    <p> <img align="right" alt="Python" width="180px"src="https://fullstackdev.online/img/portfolio/python-icon-full.png"></a>
+    </p>
+    <h1> HOW-TO: Программа на Python, Часть 1</h1>
+        <ul>
+            <li><a href="#PythonPartOne">Программа на Python — часть 1</a></li>
+            <li><a href="index2.html" target="_blank">Программа на Python — часть 2</a></li>
+            <li><a href="index3.html" target="_blank">Программа на Python — часть 3</a></li>
+        </ul>
+    <h2>Содержание</h2>
+    <h3 id="PythonPartOne"> HOW-TO: Программа на Python, Часть 1</h3>
+        <ul>
+            <li><a href="#Firstprogram"> Наша первая программа <a></li>
+            <li><a href="#ExempleFor"> Пример цикла For</a></li>
+        </ul>
+<p>Из множества существующих языков программирования Python — один из самых лёгких 
+    в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился. 
+    Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не 
+    обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим 
+    создание консольных приложений, а в следующей — программирование графических 
+    интерфейсов. (<a href="https://ru.wikipedia.org/wiki/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_Python"target="_blank">Ссылка</a>). Давайте создадим простую программу прямо сейчас.</p>
+<h2><a name="Firstprogram"> Наша первая программа </a></h2>
+<p>Наберём код в текстовом редакторе (например, в <b>gedit</b>). Потом мы разберёмся, что делает 
+    каждая строка и пойдём дальше.</p>
+<p>Введите эти 4 строки:</p>
+<p style="font-family:Courier, monospace"> #!/usr/bin/env python</p>
+<p style="font-family:Courier, monospace">print 'Hello. I am a python program.'</p>
+<p style="font-family:Courier, monospace">name = raw_input("What is your name?")</p>
+<p style="font-family:Courier, monospace">print "Hello there, " + name + "!"</p>
+<p>Это всё. Сохраните файл как <b>hello.py</b> в любом месте. Я предлагаю сохранить его в папке 
+    <b>python_examples</b> в домашнем каталоге. Этот пример показывает, как просто написать 
+    программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для 
+    этого введите в терминале</p>
+<p style="font-family:Courier, monospace"><b><i>chmod +x hello.py</i></b></p>
+<p>в папке, в которой вы сохранили программу. Теперь запустите её.</p>
+<p style="font-family:Courier, monospace">greg@earth:~/python_examples$ ./hello.py</p>
+<p style="font-family:Courier, monospace">Hello. I am a python program.</p>
+<p style="font-family:Courier, monospace">What is your name? Ferd Burphel</p>
+<p style="font-family:Courier, monospace">Hello there, Ferd Burphel!</p>
+<p style="font-family:Courier, monospace">greg@earth:~/python_examples$</p>
+<p>Вот и всё.</p>
+<h2><a name="ExempleFor">Пример цикла For</h2>
+<p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый 
+редактор и наберите следующую программу:</p>
+<p style="font-family:Courier, monospace">#!/usr/bin/env python</p>
+<p style="font-family:Courier, monospace">for cntr in range(0,10):</p>
+<p style="font-family:Courier, monospace">&nbsp;&nbsp;&nbsp;&nbsp;print cntr</p>
+<p><i>Не забудьте поставить символ табуляции перед строкой «print cntr».</i> Это важно. В 
+Python для указания на блоки кода используются не круглые <b>«(»</b> и фигурные <b>«{»</b> скобки 
+как в других языках программирования, а отступы.</p>
+<p><a href="index1.html"><img src="https://catherineasquithgallery.com/uploads/posts/2021-02/1614525780_69-p-strelka-na-belom-fone-75.png" alt="left" align="left" width="80px"></a>
+</p>
+<p style="text-align: center"><img src="https://img2.freepng.ru/20180422/kww/kisspng-estero-integrated-control-systems-bonita-springs-r-steel-structure-5adc469dd5a136.9498167215243854378751.jpg" alt="Home" align="middle" width="80px"></a>
+</p>
+<p><a href="index2.html"><img src="https://c0.klipartz.com/pngpicture/35/598/gratis-png-signo-de-flecha-verde-logotipo-de-marca-angulo-de-linea-flecha-derecha-verde.png" alt="left" align="right" width="80px"></a>
+</p>
+</body>
+</html>
